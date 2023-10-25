@@ -43,7 +43,8 @@ public class Main {
 		TreeSet<String> virag = new TreeSet<>();
 		for (Virag x : lista) virag.add(x.virag);
 		System.out.printf("1) Összesen %d féle virágot rendeltek (abc):\n   ", virag.size());
-		for (String x : virag) System.out.printf("%s \n", x);
+		for (String x : virag) System.out.printf("%s ", x);
+		System.out.println();
 	}
 	
 	private void f2_orankent() {
